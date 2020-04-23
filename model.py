@@ -371,7 +371,7 @@ class RetinexNet(nn.Module):
             print("No pretrained model to restore!")
             raise Exception
 
-        # Set this switch to true to also save the reflectance and shading maps
+        # Set this switch to True to also save the reflectance and shading maps
         save_R_L = False
         
         # Predict for the test images
@@ -395,7 +395,7 @@ class RetinexNet(nn.Module):
             result_3 = np.squeeze(result_3)
             result_4 = np.squeeze(result_4)
             if save_R_L:
-                cat_image= np.concatenate([input, result_1, result_2,                       result_3, result_4], axis=2)
+                cat_image= np.concatenate([input, result_1, result_2, result_3, result_4], axis=2)
             else:
                 cat_image= np.concatenate([input, result_4], axis=2)
 
