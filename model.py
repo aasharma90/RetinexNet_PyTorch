@@ -355,7 +355,7 @@ class RetinexNet(nn.Module):
                 res_dir,
                 ckpt_dir):
 
-        # Initialize the network 
+        # Load the network with a pre-trained checkpoint
         self.train_phase= 'Decom'
         load_model_status, _ = self.load(ckpt_dir)
         if load_model_status:
