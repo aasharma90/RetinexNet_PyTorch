@@ -1,4 +1,4 @@
-# Deep Retinex Decomposition for Low-Light Enhancement, BMVC'18, (Unofficial PyTorch Code)
+# Deep Retinex Decomposition for Low-Light Enhancement, BMVC'18 (Unofficial PyTorch Code)
 Unofficial PyTorch code for the paper - Deep Retinex Decomposition for Low-Light Enhancement, BMVC'18 (Oral), Chen Wei, Wenjing Wang, Wenhan Yang, and Jiaying Liu
 
 The offical Tensorflow code is available [here](https://github.com/weichen582/RetinexNet). 
